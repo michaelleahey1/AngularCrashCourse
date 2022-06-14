@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular1';
   message ='Hello World';
+
+isDisabled:boolean = false;
+onClick() {
+console.log("button has clicked");
 }
+}
+
+
