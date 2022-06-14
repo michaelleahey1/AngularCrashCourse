@@ -1,0 +1,19 @@
+.movie{
+    width:90%;
+    margin:25px auto;
+}
+table, th, td{
+    border: 1px solid black
+}
+.firstItem{
+    color: green;
+}
+.lastItem{
+    color: blue;
+}
+.odd{
+    background-color: Orange;
+}
+.even{
+    background-color: purple;
+}

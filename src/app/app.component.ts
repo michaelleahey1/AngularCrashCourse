@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string = "This is my title";
  // title = 'angular1';
-  message ='Hello World';
+  message ='Vintage Movies';
 
 isDisabled:boolean = false;
 onClick() {
