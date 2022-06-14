@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular1';
+  title: string = "This is my title";
+ // title = 'angular1';
   message ='Hello World';
 
 isDisabled:boolean = false;
