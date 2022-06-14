@@ -9,4 +9,3 @@ export class AppComponent {
   title = 'angular1';
   message ='Hello World';
 }
-git com
