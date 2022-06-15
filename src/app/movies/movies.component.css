@@ -5,10 +5,10 @@
 table, th, td{
     border: 1px solid black
 }
-.firstItem{
+.first{
     color: green;
 }
-.lastItem{
+.last{
     color: blue;
 }
 .odd{
