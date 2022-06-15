@@ -2,6 +2,14 @@
     width:90%;
     margin:25px auto;
 }
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 30px 30px 15px;
+    color: purple
+}
+
 table, th, td{
     border: 1px solid black
 }
@@ -12,8 +20,8 @@ table, th, td{
     color: blue;
 }
 .odd{
-    background-color: Orange;
+    background-color: lightseagreen;
 }
 .even{
-    background-color: purple;
+    background-color: lightcyan; 
 }

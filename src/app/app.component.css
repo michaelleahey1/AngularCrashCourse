@@ -6,14 +6,14 @@ ol{
     list-style-type: none;
     margin:0;
     overflow: hidden;
-    background-color: #333;
+    background-color: lightslategray;
 }
 ol li{
     float: left;
 }
 li a{
     display: block;
-    color: white;
+    color: darkred;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

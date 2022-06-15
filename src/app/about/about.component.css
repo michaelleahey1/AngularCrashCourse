@@ -1,0 +1,24 @@
+.Heading{
+    color:#1ed760;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2941ab;
+    margin: 0 -10;
+}
+.Subheading{
+    color:red;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: yellow;
+    margin: 0 -10;
+}
+.Instructions{
+    color:#1ed760;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #2941ab;
+    margin: 0 -10;
+}
