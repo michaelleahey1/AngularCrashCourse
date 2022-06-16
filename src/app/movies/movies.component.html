@@ -1,35 +1,48 @@
+<h1>{{name}}</h1>
 <section>
     <h1 class = "header">Vintage Movie Library</h1>
     <table>
     <div>   
-    <tr> 
-        <th>Number</th>
+    <tr>
         <th>Title</th>
+        <th>Number</th>
         <th>Cast</th>
         <th>Release_Date</th>
         <th>Director</th>
     </tr>
      
-    <tr *ngFor="let movie of movie; let i= index;let o=odd; let e=even; "[ngClass]="{odd:o, even:e}">
+    <tr *ngFor="let movie of vintageMovies; let i= index;let o=odd; let e=even; "[ngClass]="{odd:o, even:e}">
         <td>{{i}}</td>
-        <button (click)="movie.title">{{movie.title}}</button>
-        <div>
-            <button (click)="displayMovie(i)">{{movie.title}}</button>
-        </div>
+        <button (click)="displayMovie(i)">{{movie.title}}</button>
         <td>{{movie.Cast}}</td>
         <td>{{movie.Release_Date}}</td>
         <td>{{movie.Director}}</td>
     </tr>
-    <div [ngIf]="movie[0].display == true">
-        <div><img src="Casablanca.jfif"> </div>
-        <div><img src="The Man Who Knew Too Much.jfif"></div>
-        <div><img src="Frankenstein.jfif"></div>
-        <div><img src="Psycho.jfif"><img src="Casablanca.jfif"></div>
-        <div><img src="All Quiet on the Western Front.jfif"></div>
-        <div><img src="To Kill a Mockingbird.jfif"></div>
-        <div><img src="Twelve O'Clock High.jfif"></div>
-        <div><img src="The Day The Earth Stood Still.jfif"></div>
+    <div *ngIf="vintageMovies[0].display == true">
+        <div><img src="assets/images/Casablanca.jfif"> </div> 
     </div>
+    <div *ngIf="vintageMovies[1].display == true">
+        <img src="assets/images/The_Man_Who_Knew_Too_Much.jpg">
+    </div>
+    <div *ngIf="vintageMovies[2].display == true">
+        <img src="assets/images/Frankenstein.jpg">
+    </div>
+        
+    <div *ngIf="vintageMovies[3].display == true">
+            <img src="assets/images/Psycho.jpg">
+    </div>
+        <div *ngIf="vintageMovies[4].display == true">
+            <img src="assets/images/All_Quiet_on_the_Western_Front.jpg"></div>
+        <div *ngIf="vintageMovies[5].display == true">
+            <img src="assets/images/To_Kill_a_Mockingbird.jpg">
+        </div>
+        <div *ngIf="vintageMovies[6].display == true">
+            <img src="assets/images/Twelve_O'Clock_High.jpg">
+        </div>
+        <div *ngIf="vintageMovies[7].display == true">
+            <img src="assets/images/The_Day_the_Earth_Stood_Still.jpeg">
+        </div>
+   
     </div>
     </table>
     </section>

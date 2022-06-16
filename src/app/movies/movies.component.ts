@@ -12,7 +12,7 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-movie: movie[]=[
+vintageMovies: movie[]=[
   {title: 'Casablanca', Cast: 'Humphrey Bogart, Ingred Begman', Release_Date: 1942, Director: 'Michael Curtiz',display:false },
   {title: 'The Man Who Knew Too Much', Cast: 'James Stewart, Doris Day', Release_Date: 1956, Director: 'Alfred Hitchcock',display:false},
   {title: 'Frankenstein', Cast: 'Colin Clive, Boris Karlov', Release_Date: 1931, Director: 'James Whale',display:false},
@@ -23,11 +23,12 @@ movie: movie[]=[
   {title:'The Day The Earth Stood Still', Cast: 'Michael Rennie, Patricia Neal', Release_Date: 1951, Director: 'Robert Wise',display:false}
 ]
   displayMovie(movieNumber:number){
-    for (let i = 0; i < movie.length; i++){
-      this.movie[i].display= false;
+    for (let i = 0; i < this.vintageMovies.length; i++){
+      this.vintageMovies[i].display= false;
     }
-      this.movie[movieNumber].display = true
+      this.vintageMovies[movieNumber].display = true
   }
+  name:string = 'yourname';
 }
 class movie{
   title: string | undefined;
