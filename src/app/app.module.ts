@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { MoviesComponent } from './movies/movies.component';
+import { SeventiesComponent } from './seventies/seventies.component';
+import { ReleasesService } from './releases.service';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    MoviesComponent
+    MoviesComponent,
+    SeventiesComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +22,9 @@ import { MoviesComponent } from './movies/movies.component';
     FormsModule
 
   ],
-  providers: [],
+  providers: [
+    ReleasesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
