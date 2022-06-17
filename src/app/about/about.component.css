@@ -1,24 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding : 50px 0px; 
+    background-color: brown;
+  }
 .Heading{
-    color:#1ed760;
+    border: 1px solid black;
+    color:gold;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #2941ab;
+    padding : 50px 0px;
+    background-color: brown;
     margin: 0 -10;
 }
-.Subheading{
-    color:red;
+.Watching{
+    border: 1px solid black;
+    color:gold;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: yellow;
+    background-color: brown;
     margin: 0 -10;
 }
+
 .Instructions{
-    color:#1ed760;
+    color:black;
+    border: 1px solid black;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #2941ab;
-    margin: 0 -10;
+    background-color: brown;
+    padding : 50px 0px;
+    
+
 }
